@@ -119,7 +119,7 @@
 
 - (void)setup{
     if (_actionButton) {
-        NSLayoutAnchor
+        
     }else{
         _actionButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [_actionButton setTitleColor:[UIColor lightGrayColor] forState:UIControlStateSelected];
