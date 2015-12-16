@@ -1,5 +1,10 @@
 # CustomAlertView
-Usage:
+
+
+![alt tag] (https://raw.githubusercontent.com/sachin26thakur/CustomAlertView/master/STAlertView/STAlert.gif)
+
+
+# Usage:
 
     
     
