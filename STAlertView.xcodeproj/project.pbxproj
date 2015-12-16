@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74DC77381C1F283C004F584F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC77371C1F283C004F584F /* main.m */; };
+		74DC773B1C1F283C004F584F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC773A1C1F283C004F584F /* AppDelegate.m */; };
+		74DC773E1C1F283C004F584F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC773D1C1F283C004F584F /* ViewController.m */; };
+		74DC77411C1F283C004F584F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DC773F1C1F283C004F584F /* Main.storyboard */; };
+		74DC77431C1F283C004F584F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DC77421C1F283C004F584F /* Assets.xcassets */; };
+		74DC77461C1F283C004F584F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DC77441C1F283C004F584F /* LaunchScreen.storyboard */; };
+		74DC77511C1F283C004F584F /* STAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC77501C1F283C004F584F /* STAlertViewTests.m */; };
+		74DC775C1C1F283C004F584F /* STAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC775B1C1F283C004F584F /* STAlertViewUITests.m */; };
+		74DC776B1C1F2885004F584F /* STAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC776A1C1F2885004F584F /* STAlertController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74DC774D1C1F283C004F584F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74DC772B1C1F283C004F584F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74DC77321C1F283C004F584F;
+			remoteInfo = STAlertView;
+		};
+		74DC77581C1F283C004F584F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74DC772B1C1F283C004F584F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74DC77321C1F283C004F584F;
+			remoteInfo = STAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74DC77331C1F283C004F584F /* STAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DC77371C1F283C004F584F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74DC77391C1F283C004F584F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74DC773A1C1F283C004F584F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74DC773C1C1F283C004F584F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74DC773D1C1F283C004F584F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74DC77401C1F283C004F584F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74DC77421C1F283C004F584F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74DC77451C1F283C004F584F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74DC77471C1F283C004F584F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DC774C1C1F283C004F584F /* STAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DC77501C1F283C004F584F /* STAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAlertViewTests.m; sourceTree = "<group>"; };
+		74DC77521C1F283C004F584F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DC77571C1F283C004F584F /* STAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DC775B1C1F283C004F584F /* STAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAlertViewUITests.m; sourceTree = "<group>"; };
+		74DC775D1C1F283C004F584F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74DC77691C1F2885004F584F /* STAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAlertController.h; sourceTree = "<group>"; };
+		74DC776A1C1F2885004F584F /* STAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAlertController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74DC77301C1F283C004F584F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DC77491C1F283C004F584F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DC77541C1F283C004F584F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74DC772A1C1F283C004F584F = {
+			isa = PBXGroup;
+			children = (
+				74DC77351C1F283C004F584F /* STAlertView */,
+				74DC774F1C1F283C004F584F /* STAlertViewTests */,
+				74DC775A1C1F283C004F584F /* STAlertViewUITests */,
+				74DC77341C1F283C004F584F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74DC77341C1F283C004F584F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74DC77331C1F283C004F584F /* STAlertView.app */,
+				74DC774C1C1F283C004F584F /* STAlertViewTests.xctest */,
+				74DC77571C1F283C004F584F /* STAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DC77351C1F283C004F584F /* STAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				74DC77691C1F2885004F584F /* STAlertController.h */,
+				74DC776A1C1F2885004F584F /* STAlertController.m */,
+				74DC77391C1F283C004F584F /* AppDelegate.h */,
+				74DC773A1C1F283C004F584F /* AppDelegate.m */,
+				74DC773C1C1F283C004F584F /* ViewController.h */,
+				74DC773D1C1F283C004F584F /* ViewController.m */,
+				74DC773F1C1F283C004F584F /* Main.storyboard */,
+				74DC77421C1F283C004F584F /* Assets.xcassets */,
+				74DC77441C1F283C004F584F /* LaunchScreen.storyboard */,
+				74DC77471C1F283C004F584F /* Info.plist */,
+				74DC77361C1F283C004F584F /* Supporting Files */,
+			);
+			path = STAlertView;
+			sourceTree = "<group>";
+		};
+		74DC77361C1F283C004F584F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74DC77371C1F283C004F584F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74DC774F1C1F283C004F584F /* STAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				74DC77501C1F283C004F584F /* STAlertViewTests.m */,
+				74DC77521C1F283C004F584F /* Info.plist */,
+			);
+			path = STAlertViewTests;
+			sourceTree = "<group>";
+		};
+		74DC775A1C1F283C004F584F /* STAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74DC775B1C1F283C004F584F /* STAlertViewUITests.m */,
+				74DC775D1C1F283C004F584F /* Info.plist */,
+			);
+			path = STAlertViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74DC77321C1F283C004F584F /* STAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DC77601C1F283C004F584F /* Build configuration list for PBXNativeTarget "STAlertView" */;
+			buildPhases = (
+				74DC772F1C1F283C004F584F /* Sources */,
+				74DC77301C1F283C004F584F /* Frameworks */,
+				74DC77311C1F283C004F584F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STAlertView;
+			productName = STAlertView;
+			productReference = 74DC77331C1F283C004F584F /* STAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74DC774B1C1F283C004F584F /* STAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DC77631C1F283C004F584F /* Build configuration list for PBXNativeTarget "STAlertViewTests" */;
+			buildPhases = (
+				74DC77481C1F283C004F584F /* Sources */,
+				74DC77491C1F283C004F584F /* Frameworks */,
+				74DC774A1C1F283C004F584F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DC774E1C1F283C004F584F /* PBXTargetDependency */,
+			);
+			name = STAlertViewTests;
+			productName = STAlertViewTests;
+			productReference = 74DC774C1C1F283C004F584F /* STAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74DC77561C1F283C004F584F /* STAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DC77661C1F283C004F584F /* Build configuration list for PBXNativeTarget "STAlertViewUITests" */;
+			buildPhases = (
+				74DC77531C1F283C004F584F /* Sources */,
+				74DC77541C1F283C004F584F /* Frameworks */,
+				74DC77551C1F283C004F584F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DC77591C1F283C004F584F /* PBXTargetDependency */,
+			);
+			name = STAlertViewUITests;
+			productName = STAlertViewUITests;
+			productReference = 74DC77571C1F283C004F584F /* STAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74DC772B1C1F283C004F584F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = GlobalLogic;
+				TargetAttributes = {
+					74DC77321C1F283C004F584F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					74DC774B1C1F283C004F584F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 74DC77321C1F283C004F584F;
+					};
+					74DC77561C1F283C004F584F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 74DC77321C1F283C004F584F;
+					};
+				};
+			};
+			buildConfigurationList = 74DC772E1C1F283C004F584F /* Build configuration list for PBXProject "STAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74DC772A1C1F283C004F584F;
+			productRefGroup = 74DC77341C1F283C004F584F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74DC77321C1F283C004F584F /* STAlertView */,
+				74DC774B1C1F283C004F584F /* STAlertViewTests */,
+				74DC77561C1F283C004F584F /* STAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74DC77311C1F283C004F584F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DC77461C1F283C004F584F /* LaunchScreen.storyboard in Resources */,
+				74DC77431C1F283C004F584F /* Assets.xcassets in Resources */,
+				74DC77411C1F283C004F584F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DC774A1C1F283C004F584F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DC77551C1F283C004F584F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DC772F1C1F283C004F584F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DC773E1C1F283C004F584F /* ViewController.m in Sources */,
+				74DC776B1C1F2885004F584F /* STAlertController.m in Sources */,
+				74DC773B1C1F283C004F584F /* AppDelegate.m in Sources */,
+				74DC77381C1F283C004F584F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DC77481C1F283C004F584F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DC77511C1F283C004F584F /* STAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DC77531C1F283C004F584F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DC775C1C1F283C004F584F /* STAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74DC774E1C1F283C004F584F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74DC77321C1F283C004F584F /* STAlertView */;
+			targetProxy = 74DC774D1C1F283C004F584F /* PBXContainerItemProxy */;
+		};
+		74DC77591C1F283C004F584F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74DC77321C1F283C004F584F /* STAlertView */;
+			targetProxy = 74DC77581C1F283C004F584F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74DC773F1C1F283C004F584F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DC77401C1F283C004F584F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74DC77441C1F283C004F584F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DC77451C1F283C004F584F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74DC775E1C1F283C004F584F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74DC775F1C1F283C004F584F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74DC77611C1F283C004F584F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delete.STAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74DC77621C1F283C004F584F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delete.STAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74DC77641C1F283C004F584F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = STAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delete.STAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STAlertView.app/STAlertView";
+			};
+			name = Debug;
+		};
+		74DC77651C1F283C004F584F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = STAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delete.STAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STAlertView.app/STAlertView";
+			};
+			name = Release;
+		};
+		74DC77671C1F283C004F584F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = STAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delete.STAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STAlertView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		74DC77681C1F283C004F584F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = STAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delete.STAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STAlertView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74DC772E1C1F283C004F584F /* Build configuration list for PBXProject "STAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DC775E1C1F283C004F584F /* Debug */,
+				74DC775F1C1F283C004F584F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DC77601C1F283C004F584F /* Build configuration list for PBXNativeTarget "STAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DC77611C1F283C004F584F /* Debug */,
+				74DC77621C1F283C004F584F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DC77631C1F283C004F584F /* Build configuration list for PBXNativeTarget "STAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DC77641C1F283C004F584F /* Debug */,
+				74DC77651C1F283C004F584F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DC77661C1F283C004F584F /* Build configuration list for PBXNativeTarget "STAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DC77671C1F283C004F584F /* Debug */,
+				74DC77681C1F283C004F584F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74DC772B1C1F283C004F584F /* Project object */;
+}
