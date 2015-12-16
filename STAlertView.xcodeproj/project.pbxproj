@@ -16,6 +16,7 @@
 		74DC77511C1F283C004F584F /* STAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC77501C1F283C004F584F /* STAlertViewTests.m */; };
 		74DC775C1C1F283C004F584F /* STAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC775B1C1F283C004F584F /* STAlertViewUITests.m */; };
 		74DC776B1C1F2885004F584F /* STAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC776A1C1F2885004F584F /* STAlertController.m */; };
+		74DFC5F51C213AA000687656 /* STAlert.gif in Resources */ = {isa = PBXBuildFile; fileRef = 74DFC5F41C213AA000687656 /* STAlert.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		74DC775D1C1F283C004F584F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74DC77691C1F2885004F584F /* STAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAlertController.h; sourceTree = "<group>"; };
 		74DC776A1C1F2885004F584F /* STAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAlertController.m; sourceTree = "<group>"; };
+		74DFC5F41C213AA000687656 /* STAlert.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = STAlert.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		74DC77361C1F283C004F584F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				74DFC5F41C213AA000687656 /* STAlert.gif */,
 				74DC77371C1F283C004F584F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -250,6 +253,7 @@
 			files = (
 				74DC77461C1F283C004F584F /* LaunchScreen.storyboard in Resources */,
 				74DC77431C1F283C004F584F /* Assets.xcassets in Resources */,
+				74DFC5F51C213AA000687656 /* STAlert.gif in Resources */,
 				74DC77411C1F283C004F584F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
