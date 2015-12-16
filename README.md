@@ -6,6 +6,8 @@
 
 # Usage:
 
+Add STAlert folder inside of your project and import file STAlertController.h where do want to use and do this way.
+
     
     
     NSString *title = @"Alert Title";
