@@ -33,7 +33,7 @@
 
 
 + (id)initWithTitle:(NSString *)title message:(NSString *)message{
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"STAlert" bundle:nil];
     STAlertController *vc = (STAlertController*)[storyboard instantiateViewControllerWithIdentifier:@"alertID"];
     vc.alertTitle = title;
     vc.message = message;

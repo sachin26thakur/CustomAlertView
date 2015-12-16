@@ -17,6 +17,7 @@
 		74DC775C1C1F283C004F584F /* STAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC775B1C1F283C004F584F /* STAlertViewUITests.m */; };
 		74DC776B1C1F2885004F584F /* STAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DC776A1C1F2885004F584F /* STAlertController.m */; };
 		74DFC5F71C213E4E00687656 /* STAlert.gif in Resources */ = {isa = PBXBuildFile; fileRef = 74DFC5F61C213E4E00687656 /* STAlert.gif */; };
+		74DFC5F91C2170F400687656 /* STAlert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DFC5F81C2170F400687656 /* STAlert.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		74DC77691C1F2885004F584F /* STAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAlertController.h; sourceTree = "<group>"; };
 		74DC776A1C1F2885004F584F /* STAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAlertController.m; sourceTree = "<group>"; };
 		74DFC5F61C213E4E00687656 /* STAlert.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = STAlert.gif; sourceTree = "<group>"; };
+		74DFC5F81C2170F400687656 /* STAlert.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = STAlert.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +108,7 @@
 		74DC77351C1F283C004F584F /* STAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				74DC77691C1F2885004F584F /* STAlertController.h */,
-				74DC776A1C1F2885004F584F /* STAlertController.m */,
+				74DFC5FA1C21719C00687656 /* STAlert */,
 				74DC77391C1F283C004F584F /* AppDelegate.h */,
 				74DC773A1C1F283C004F584F /* AppDelegate.m */,
 				74DC773C1C1F283C004F584F /* ViewController.h */,
@@ -146,6 +147,16 @@
 				74DC775D1C1F283C004F584F /* Info.plist */,
 			);
 			path = STAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		74DFC5FA1C21719C00687656 /* STAlert */ = {
+			isa = PBXGroup;
+			children = (
+				74DC77691C1F2885004F584F /* STAlertController.h */,
+				74DC776A1C1F2885004F584F /* STAlertController.m */,
+				74DFC5F81C2170F400687656 /* STAlert.storyboard */,
+			);
+			name = STAlert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +264,7 @@
 			files = (
 				74DC77461C1F283C004F584F /* LaunchScreen.storyboard in Resources */,
 				74DC77431C1F283C004F584F /* Assets.xcassets in Resources */,
+				74DFC5F91C2170F400687656 /* STAlert.storyboard in Resources */,
 				74DFC5F71C213E4E00687656 /* STAlert.gif in Resources */,
 				74DC77411C1F283C004F584F /* Main.storyboard in Resources */,
 			);
